@@ -330,40 +330,31 @@ footer {
     margin-top: auto;
 }
 
-@media only screen and (max-width:800px) {
-    .container {
-        width: 90%; 
-        margin: 0 auto;
-    }
-
-    .filter-btn {
-        padding: 10px 20px;
-        font-size: 16px;
-    }
-
-    .section-content {
-        padding: 10px;
-    }
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    padding: 10px;
+  }
 }
 
-@media only screen and (max-width:500px) {
-    .container {
-        width: 100%;
-        padding: 0 10px;
-    }
-
-    .filter-btn {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .section-content img {
-        width: 100%; 
-        height: auto;
-    }
-
-    h2 {
-        font-size: 18px;
-    }
+/* Medium devices (tablets, 601px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+  .item {
+    width: 48%;
+  }
 }
 
+/* Large devices (desktops, 1025px and above) */
+@media (min-width: 1025px) {
+  body {
+    font-size: 18px;
+  }
+  .item {
+    width: 30%;
+  }
+}
