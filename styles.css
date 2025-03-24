@@ -19,7 +19,7 @@ body {
     justify-content: center;
     background: linear-gradient(120deg, #3e1f06, #8c4b1d);
     color: #333;
-    font-size: 20px;
+    font-size: 18px; /* Consistent font size */
 }
 
 .container {
@@ -328,33 +328,4 @@ footer {
     padding: 20px 0;
     text-align: center;
     margin-top: auto;
-}
-
-@media (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
-  .container {
-    padding: 10px;
-  }
-}
-
-/* Medium devices (tablets, 601px to 1024px) */
-@media (min-width: 601px) and (max-width: 1024px) {
-  body {
-    font-size: 16px;
-  }
-  .item {
-    width: 48%;
-  }
-}
-
-/* Large devices (desktops, 1025px and above) */
-@media (min-width: 1025px) {
-  body {
-    font-size: 18px;
-  }
-  .item {
-    width: 30%;
-  }
 }
