@@ -330,7 +330,7 @@ footer {
     margin-top: auto;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width:800px) {
     .container {
         width: 90%; 
         margin: 0 auto;
@@ -346,7 +346,7 @@ footer {
     }
 }
 
-@media (max-width: 700px) {
+@media only screen and (max-width:500px) {
     .container {
         width: 100%;
         padding: 0 10px;
@@ -367,18 +367,3 @@ footer {
     }
 }
 
-@media (min-width: 1024px) {
-    .menu-bar {
-        flex-direction: row;
-    }
-}
-
-html {
-    font-size: 100%;
-}
-
-@media (max-width: 768px) {
-    html {
-        font-size: 90%;
-    }
-}
